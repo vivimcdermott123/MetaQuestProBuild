@@ -1,0 +1,46 @@
+# Unity build artifacts
+*.log
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Unity specific
+Library/
+Temp/
+Logs/
+UserSettings/
+obj/
+.vs/
+
+# Build artifacts (keep these for distribution)
+# ARETT MetaQuestPro_Data/
+# ARETT MetaQuestPro.exe
+# MonoBleedingEdge/
+# RuntimeActionBindings.json
+# UnityCrashHandler64.exe
+# UnityPlayer.dll
+
+# Exclude everything from Desktop except this project
+/*
+!/ARETT MetaQuestPro_Data/
+!/ARETT MetaQuestPro.exe
+!/MonoBleedingEdge/
+!/RuntimeActionBindings.json
+!/UnityCrashHandler64.exe
+!/UnityPlayer.dll
+!/README.md
+!/.gitignore 
